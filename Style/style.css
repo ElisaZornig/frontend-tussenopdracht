@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    width: 220px;
+    height: 260px;
+}
+
+section {
+    display: flex;
+}
+
+.gerelateerde {
+    justify-content: center;
+    background-color: #DCECEC;
+    padding-top: 20px;
+}
+
+.plusenmin {
+    background-color: #DCECEC;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.omschrijving {
+    padding-left: 70px;
+    padding-top: 2px;
+    padding-right: 100px;
+}
+
+.omschrijvingboek {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    flex: 3;
+}
+
+.product {
+    padding: 100px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    border-bottom: 2px #B8B8B8 solid;
+}
+
+.varkentjeboek {
+    margin: 0px 10px;
+}
+
+nav {
+    border-bottom: 2px #B8B8B8 solid;
+    padding: 20px 0px 20px 100px;
+    background-color: #DCECEC;
+    text-decoration: none;
+
+}
+
+a {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #91A0B1;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    padding-left: 100px;
+}
+
+.prentenboek {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.buttonbestel {
+    padding: 10px;
+    background-color: #DCECEC;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buttonbestel:hover {
+    padding: 10px;
+    background-color: #DCECEC;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boek1 {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    padding: 25px;
+    background-color: #3E6990;
+
+    color: white;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.footertekst {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
